@@ -1,0 +1,188 @@
+body{
+    background-color: silver;
+    margin: 0;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+}
+header h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 25vh;
+    color: blanchedalmond;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    border-bottom: 2px solid rgb(179, 159, 159);
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+header p{
+    text-align: center;
+    color: blanchedalmond;
+    
+}
+.magna .centre{
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.magna .centre i{
+    font-size: 40px;
+    color: gray;
+    border-radius: 50%;
+    border: solid 2px gray;
+    padding: 10px;
+}
+.magna .centre h2{
+    text-align: center;
+}
+.magna .centre p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.magna .centre button{
+    padding: 10px 20px;
+    background-color: white;
+}
+.magna .centre button:hover{
+    border-color: red;
+    color: red;
+}
+/* carte  */
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.card{
+   
+   width: 48%;
+   background-color: white;
+   margin-top: 30px;
+   padding-bottom: 30px;
+   text-align: center;
+
+}
+.entete{
+    /* height: 100%; */
+    position: relative;
+    overflow: hidden;
+}
+.img1{
+    background-image: url(../img/pic01.jpg);
+    background-position: left;
+    height: 200px;
+    /* width: 343.62px; */
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.img1:hover{
+    transform: scale(1.2);
+    background-position: left;
+    transition: 1s;
+    width: 544px;
+}
+.card-img-02{
+    background-image: url(../img/pic02.jpg);
+    background-position: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.card-img-02:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    width: 544px;
+}
+.card-img-03{
+    background-image: url(../img/pic03.jpg);
+    background-position: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.card-img-03:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    width: 544px;
+}
+.card-img-04{
+    background-image: url(../img/pic04.jpg);
+    background-position: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.card-img-04:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    width: 544px;
+}
+.text-entete{
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 28%;
+    color: whitesmoke;
+}
+.card-btn{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+.card-btn:hover{
+    border-color: red;
+    color: red;
+}
+.about{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 15px;
+}
+.about button{
+    padding: 10px 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about button:hover{
+    border-color: red;
+    color: red;
+}
+.about hr{
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: black;
+}
+footer{
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: gray;
+    padding-left: 0;
+}
+footer li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p{
+
+    color: gray;
+}
+
